@@ -35,6 +35,8 @@ class CityListTest {
 
         City cityToAdd = new City("Saskatoon", "Saskatchewan");
 
+        cityList.add(cityToAdd);
+
         assertTrue(cityList.hasCity(cityToAdd));
     }
 }
